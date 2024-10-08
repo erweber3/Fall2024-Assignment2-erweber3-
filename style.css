@@ -1,0 +1,51 @@
+
+/* Set the background image and general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pawel-czerwinski-g0eRErPBoTA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    cursor: pointer; /* Makes it look clickable */
+    display: block; /* Makes the whole h1 act like a block button */
+    padding: 10px 20px; /* Adds space around the text */
+    background-color: #0B2275; /* Optional: Give it a background color */
+    border-radius: 8px; /* Optional: Round the corners */
+    transition: background-color 0.3s ease; /* Optional: Smooth hover transition */
+    color: floralwhite;
+}
+
+#query {
+    padding: 10px;
+    margin: 10px;
+    width: 38%;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#searchResults, #time {
+    visibility: hidden;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#searchResults {
+    color: #000;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+/*  padding: 200px; */
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 75%;
+}
